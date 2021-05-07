@@ -20,7 +20,8 @@ exports.config = {
         //'./api/getValue.js'
         //'./api/switch.js'
         //'./api/WaitforDisPlay.js'
-        './api/savescreenShot.js'
+        //'./api/savescreenShot.js'
+        './src/test_script/account/TC_001_Login_PageObject_01.js'
     ],
     capabilities:[{
     "platformName": "Android",
