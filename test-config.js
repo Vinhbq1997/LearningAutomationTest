@@ -21,12 +21,14 @@ exports.config = {
         //'./api/switch.js'
         //'./api/WaitforDisPlay.js'
         //'./api/savescreenShot.js'
-        './src/test_script/account/TC_001_Login_PageObject_01.js'
+        //'./src/test_script/account/TC_001_Login_PageObject_01.js'
+        './src/test_script/account/TC_001_Login_PageObjectGlobalWait.js'
     ],
     capabilities:[{
     "platformName": "Android",
     "automationName":"UiAutomator2",
-    "udid":"1cbd435520037ece",
+    //"udid":"1cbd435520037ece",
+    "udid":"192.168.69.103:5555", 
     "appPackage":"com.wdiodemoapp",
     "appActivity":".MainActivity"
     }]
