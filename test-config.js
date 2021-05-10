@@ -10,6 +10,7 @@ exports.config = {
         require:['@babel/register'],
         timeout:600000
     },
+    waitforTimeout: 5000,
     maxInstance:1,
     sync:true,
     specs:[
@@ -23,7 +24,8 @@ exports.config = {
         //'./api/savescreenShot.js'
         //'./src/test_script/account/TC_001_Login_PageObject_01.js'
         //'./src/test_script/account/TC_001_Login_PageObjectGlobalWait.js'
-        './src/test_script/account/TC_003_InheritancePageObject.js'
+        //'./src/test_script/account/TC_003_InheritancePageObject.js'
+        './src/test_script/account/TC_004_LoginWithMethodChaining.js'
     ],
     capabilities:[{
     "platformName": "Android",
