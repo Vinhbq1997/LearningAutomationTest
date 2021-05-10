@@ -22,7 +22,8 @@ exports.config = {
         //'./api/WaitforDisPlay.js'
         //'./api/savescreenShot.js'
         //'./src/test_script/account/TC_001_Login_PageObject_01.js'
-        './src/test_script/account/TC_001_Login_PageObjectGlobalWait.js'
+        //'./src/test_script/account/TC_001_Login_PageObjectGlobalWait.js'
+        './src/test_script/account/TC_003_InheritancePageObject.js'
     ],
     capabilities:[{
     "platformName": "Android",
