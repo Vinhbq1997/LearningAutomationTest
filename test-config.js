@@ -25,13 +25,14 @@ exports.config = {
         //'./src/test_script/account/TC_001_Login_PageObject_01.js'
         //'./src/test_script/account/TC_001_Login_PageObjectGlobalWait.js'
         //'./src/test_script/account/TC_003_InheritancePageObject.js'
-        './src/test_script/account/TC_004_LoginWithMethodChaining.js'
+        //'./src/test_script/account/TC_004_LoginWithMethodChaining.js'
+        './src/test_script/account/TC_005_Login.js'
     ],
     capabilities:[{
     "platformName": "Android",
     "automationName":"UiAutomator2",
-    //"udid":"1cbd435520037ece",
-    "udid":"192.168.69.103:5555", 
+    "udid":"1cbd435520037ece",
+    //"udid":"192.168.69.103:5555", 
     "appPackage":"com.wdiodemoapp",
     "appActivity":".MainActivity"
     }]

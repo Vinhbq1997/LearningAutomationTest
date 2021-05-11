@@ -8,5 +8,10 @@ class Login extends CrendentialForm {
         $(LOGIN_BTN).waitForDisplayed({timeout:5000})
         return $(LOGIN_BTN)
     }
+
+    click_on_login_button(){
+        this.login_btn.click()
+    }
+
 }
 export default new Login()
