@@ -30,6 +30,7 @@ class CrendentialForm {
     }
     verify_email_text_displayed(value){
         expect(this.email_txt_feild).toHaveText(value,{trim: true})
+        chaiExpect(this.email_txt_feild.getText()).to.be.equal(value, "[ERR] the email field is incorrect")
 
     }
 }

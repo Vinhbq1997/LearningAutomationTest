@@ -1,3 +1,5 @@
+let chai = require("chai")
+
 exports.config = {
     runner: 'local',
     port: 4723,
@@ -31,9 +33,13 @@ exports.config = {
     capabilities:[{
     "platformName": "Android",
     "automationName":"UiAutomator2",
-    "udid":"1cbd435520037ece",
-    //"udid":"192.168.69.103:5555", 
+    //"udid":"1cbd435520037ece",
+    "udid":"192.168.69.103:5555", 
     "appPackage":"com.wdiodemoapp",
     "appActivity":".MainActivity"
-    }]
+    }],
+
+    before: function() {
+        global.chaiExpect = chai.expect
+    }
 }
