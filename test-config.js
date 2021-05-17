@@ -26,7 +26,9 @@ exports.config = {
         //'./src/test_script/account/TC_001_Login_PageObjectGlobalWait.js'
         //'./src/test_script/account/TC_003_InheritancePageObject.js'
         //'./src/test_script/account/TC_004_LoginWithMethodChaining.js'
-        './src/test_script/account/TC_005_Login.js'
+        //'./src/test_script/account/TC_005_Login.js'
+        './src/test_script/account/TC_006_LoginWithCommomFlow.js'
+        
     ],
     capabilities:[{
     "platformName": "Android",
