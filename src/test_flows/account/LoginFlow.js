@@ -10,7 +10,7 @@ class LoginFlow {
         
     }
     verifyEmailTextfield(email){
-        expect(Login.email_txt_feild).toHaveValue(email)
+        expect(Login.email_txt_feild).toHaveText(email)
     }
 }
 

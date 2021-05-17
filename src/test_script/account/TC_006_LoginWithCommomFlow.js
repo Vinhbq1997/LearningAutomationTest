@@ -5,9 +5,9 @@ describe('Learn Function', function(){
         const LOGIN_ICON_HOME_PAGE = '~Login'
         $(LOGIN_ICON_HOME_PAGE).click()
 
-        let email = "Vinh"
-        let password = "123"
-        
+        let email = "teo"
+        let password = "123456789"
+
         let loginFlow = new LoginFlow()
         loginFlow.loginWithCredentials(email, password)
         loginFlow.verifyEmailTextfield(email)
