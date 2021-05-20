@@ -1,13 +1,14 @@
 import CrendentialForm from "./CredentialForm"
 
-//Declare Selector values on the page
-const LOGIN_BTN = '~button-LOGIN'
+const LOGIN_BUTTON = "~button-LOGIN"
 
-class Login extends CrendentialForm {
-    get login_btn(){
-        $(LOGIN_BTN).waitForDisplayed({timeout:5000})
-        return $(LOGIN_BTN)
+class Login extends CrendentialForm{
+    wait_till_for_displayed(){
+        $(LOGIN_BUTTON).waitForDisplayed()
     }
 
+    click_on_login_button(){
+        $(LOGIN_BUTTON).click()
+    }
 }
 export default new Login()

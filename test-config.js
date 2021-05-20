@@ -16,21 +16,7 @@ exports.config = {
     maxInstance:1,
     sync:true,
     specs:[
-        //'./PlaywithMocha.js'
-        //'./api/click.js'
-        //'./api/setValue.js'
-        //'./api/addValue.js'
-        //'./api/getValue.js'
-        //'./api/switch.js'
-        //'./api/WaitforDisPlay.js'
-        //'./api/savescreenShot.js'
-        //'./src/test_script/account/TC_001_Login_PageObject_01.js'
-        //'./src/test_script/account/TC_001_Login_PageObjectGlobalWait.js'
-        //'./src/test_script/account/TC_003_InheritancePageObject.js'
-        //'./src/test_script/account/TC_004_LoginWithMethodChaining.js'
-        //'./src/test_script/account/TC_005_Login.js'
-        './src/test_script/account/TC_006_LoginWithCommomFlow.js'
-        
+        './src/test_script/account/TC_001_Login.js'
     ],
     capabilities:[{
     "platformName": "Android",
