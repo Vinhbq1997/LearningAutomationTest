@@ -3,8 +3,8 @@ const VALID_CREDS = {
     password: "Hello123"
 }
 const INVALID_CREDS = {
-    email: "Vinhbq@gmail.com",
-    password: "Hello123"
+    email: "",
+    password: "Hello"
 }
 export {
     VALID_CREDS,
