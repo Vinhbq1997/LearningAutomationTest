@@ -1,10 +1,8 @@
-import $ from "webdriverio/build/commands/browser/$"
 import CrendentialForm from "./CredentialForm"
 
 const LOGIN_BUTTON = "~button-LOGIN"
-const INVALID_EMAIL_MSG = '//*[@text="Please enter vaild email address"]'
+const INVALID_EMAIL_MSG = '//*[@text="Please enter a valid email address"]'
 const INVALID_PASSWORD_MSG = '//*[@text="Please enter at least 8 characters"]'
-
 
 class Login extends CrendentialForm{
     wait_till_for_displayed(){
@@ -12,7 +10,7 @@ class Login extends CrendentialForm{
     }
 
     is_on_login_screen(){
-        if ($(LOGIN_BUTTON).isDisplayed()) return true
+        if($(LOGIN_BUTTON).isDisplayed()) return true
         return false
     }
 
